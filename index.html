@@ -40,6 +40,8 @@
                         <li class="scroll active"><a href="#home">Home</a></li>
                         <li class="scroll"><a href="#products">Project</a></li>
                         <li class="scroll"><a href="#services">Services used</a></li>
+                        <li class="scroll"><a href="#">Output</a></li>
+                        <li class="scroll"><a href="#learning">Learning</a></li>
                         <li class="scroll"><a href="#team">Team</a></li>
                     </ul>
                 </div>
@@ -55,7 +57,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h2>Stock Prediction</h2>
+                        <h2>Predicting stock prices using Amazon Web Services</h2>
                         <p></p>
                         <!-- <a class="btn btn-primary btn-lg" href="#">Learn More</a> -->
                     </div>
@@ -68,7 +70,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title wow fadeInDown">Project</h2>
-                <p class="wow fadeInDown">The application made using the services of AWS predicts the opening and closing prices of stocks of various companies. </p>
+                <p class="wow fadeInDown">Aim of this project is to make use of Amazon Web Services to build a model which predicts the stock prices based on historical data.</p>
             </div>
 
             <div class="row">
@@ -145,8 +147,8 @@
         <div class="container">
 
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Services Used</h2>
-                <p class="wow fadeInDown"> The following services played a crucial role in making this project a success: </p>
+                <h2 class="section-title wow fadeInDown">Amazon Web Services Used</h2>
+                <p class="wow fadeInDown"> The following services from AWS were used in order to build the project: </p>
             </div>
 
             <div class="row">
@@ -154,12 +156,12 @@
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
                         <div class="media service-box">
                             <div class="pull-left">
-                                <img src="./img/ec2.svg" alt="" width="80px">
+                                <img src="./img/ec2.svg" alt="" width="90px">
                             </div>
                             
                             <div class="media-body">
                                 <h4 class="media-heading">EC2</h4>
-                                <p>Amazon EC2 is used to generate a key pair which is further used to deploy our website using CodeStar</p>
+                                <p>It is used to generate a key pair for authentication purposes in CodeStar and also, Jupyter NB of Sagemaker requires EC2 in order to run.</p>
                             </div>
                         </div>
                     </div>
@@ -168,12 +170,12 @@
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
                         <div class="media service-box">
                             <div class="pull-left">
-                                <img src="./img/sagemaker.svg" alt="" width="80px">
+                                <img src="./img/sagemaker.svg" alt="" width="90px">
                             </div>
                            
                             <div class="media-body">
                                 <h4 class="media-heading">Sagemaker</h4>
-                                <p>The notebook instance of Sagemaker houses the python code for LSTM model which is used to predict the prices. </p>
+                                <p>The  Jupyter notebook instance of Sagemaker contains the python code for LSTM model which is used to predict the prices. </p>
                             </div>
                         </div>
                     </div>
@@ -182,11 +184,11 @@
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
                         <div class="media service-box">
                             <div class="pull-left">
-                                <img src="./img/codestar.svg" alt="" width="80px">
+                                <img src="./img/codestar.svg" alt="" width="90px">
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">CodeStar</h4>
-                                <p>CodeStar is used to quickly build and deploy applications is used to deploy this webpage.</p>
+                                <p>CodeStar is used to quickly build and deploy applications and in our case it is used to build the application. </p>
                             </div>
                         </div>
                     </div>
@@ -195,11 +197,11 @@
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
                         <div class="media service-box">
                             <div class="pull-left">
-                                <img src="./img/s3.svg" alt="" width="80px">
+                                <img src="./img/s3.svg" alt="" width="90px">
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">S3 Bucket</h4>
-                                <p>The data store of AWS which stores the database and files through which our model is trained and tested. </p>
+                                <p>It is the data store of AWS which is used to store the historical datasets on which the model is trained. </p>
                             </div>
                         </div>
                     </div>
@@ -208,11 +210,11 @@
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
                         <div class="media service-box">
                             <div class="pull-left">
-                                <img src="./img/codecommit.svg" alt="" width="80px">
+                                <img src="./img/codecommit.svg" alt="" width="90px">
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">CodeCommit</h4>
-                                <p>The GitHub of AWS which is used to build the application (this webpage) and commit these changes. </p>
+                                <p>Similar to GitHub, it is used as a version control tool. </p>
                             </div>
                         </div>
                     </div>
@@ -221,11 +223,11 @@
                     <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
                         <div class="media service-box">
                             <div class="pull-left">
-                                <img src="./img/amp.svg" alt="" width="80px">
+                                <img src="./img/amp.svg" alt="" width="90px">
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">AWS Amplify</h4>
-                                <p>AWS Amplify is used to connect to GitHub repository and then deploy the website. </p>
+                                <p>AWS Amplify is used to connect to GitHub/CodeCommit repository and then deploy the static website. </p>
                             </div>
                         </div>
                     </div>
@@ -238,6 +240,24 @@
     </section>
     <!--/#services-->
 
+    <section  id="learning">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Learning Outcomes</h2>
+                <p class="wow fadeInDown">Following were the learning outcomes from this project: </p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 wp1 animated fadeInUp">
+                    <ul style="font-family: 'Raleway', sans-serif;color: #A8A8A8">
+                        <li>Using various Aamazon Web Services like S3, Sagemaker, EC2, CodeCommit, Amplify and CodeStar</li>
+                        <li>Using cloud to build and host an application</li> 
+                        <li>Using Machine Learning to predict stock prices accurately using historical data</li></ul>
+                    <!-- <a href="#" class="download-btn">Download Now</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section id="team">

@@ -264,7 +264,7 @@ background: #141414;
 }
 #hero-banner{
   
-  background: #FFFFFF url('../images/banner/bg1.jpg') no-repeat 100% bottom;
+  background: #FFFFFF url('../img/bg1.jpg') no-repeat 100% bottom;
   }
 #hero-banner h2 {
   filter: invert(1);

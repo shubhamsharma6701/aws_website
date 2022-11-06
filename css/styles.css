@@ -8,7 +8,7 @@ Author URL: http://webthemez.com
 **************************/
 body {
   padding-top: 100px;
-  background: #E0E0E0;
+  background: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: #282828;
@@ -20,7 +20,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
+  font-size: 300;
+  font-weight: 800;
   font-family: 'Raleway', sans-serif;
 }
 a {
@@ -238,6 +239,7 @@ background: #141414;
   }
 }
 #hero-banner{
+  filter: invert(1);
   overflow: hidden;
   height:650px;
   width: 100%;
@@ -252,16 +254,20 @@ background: #141414;
 }
 #hero-banner.banner-inner {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
+  
   width: 100%;
   height: 100%;
   color: #000;
 }
 #hero-banner{
+  
   background: #FFFFFF url('../images/banner/bg1.jpg') no-repeat 100% bottom;
   }
 #hero-banner h2 {
+  filter: invert(1);
   margin-top: 180px;
   font-size: 39px;
   line-height: 49px;  
@@ -275,10 +281,11 @@ background: #141414;
 } 
  
 #hero-text {
+  
   padding: 50px 0;
   border-top: 1px solid #FFFFFF;
   background: #085C98;
-  color: #F4F4F4;
+  color: #000;
 }
 #hero-text h2 {
   margin-top: 0;
@@ -289,6 +296,8 @@ background: #141414;
   background: #fff;
 }
 #cta2 {
+  
+
   background: #45b1da;
   color: #fff;
   padding-top: 70px;
@@ -306,7 +315,7 @@ background: #141414;
 }
 #features h2, #portfolio p{ color: #4A4A4A;}
 #features {
-  padding: 140px 0;
+  padding: 10px 0;
   background: #FFFFFF;
   color: #000;
 }
@@ -348,10 +357,10 @@ background: #141414;
 }
 #hero-banner h2, 
 #hero-banner p {
+  filter: invert(1);
 color: #141414;
 }
-.media.service-box:hover .pull-left > i {  
-}
+
 #portfolio {
   padding: 140px 0;
 }

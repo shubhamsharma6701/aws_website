@@ -6,8 +6,82 @@ Author URL: http://webthemez.com
 /*************************
 *******Typography******
 **************************/
+
+
+/* new navbar */
+
+/*set a link to give people using screen readers an option to skip the navigation and go directly to the main page content */
+.skip-to-main-content {
+  margin-left: -900px;
+}
+
+/* Fix navigation to create a sticky nav bar */
+nav {
+  /* position: fixed; */
+  margin-top: -20px;
+  /* margin-bottom: 30px; */
+  width: 100%;
+  height: 50%;
+  background-color: #1a1a1a;
+  /* padding: 0 25px;   */
+}
+
+nav ul {
+  /* margin: 30; */
+  /* padding: -30px; */
+  /* display-style: none; */
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  /* width: 70px; */
+  height: 70px;
+  color: white;
+  text-align: center; 
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+
+nav li:active {
+  background-color: #333333;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #333333;
+  text-decoration: none;
+}
+
+nav button {
+  display: none;
+}
+
+/* make the nav bar adapt to small screen sizes */
+@media (max-width: 500px) {
+    nav li {
+    display: block;
+      width: 100%;
+      border-bottom: 1px solid white;
+      padding: 5px 0;
+      
+  }
+  
+  nav {
+    padding: 100px 0 0 0;
+  }
+}
+/* new navbar css ends here */
+
+
+
+
+
+
 body {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   background: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -50,16 +124,16 @@ hr {
   background-image: -webkit-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
 }
-.section-header {
+/* .section-header {
   margin-bottom: 50px;
-}
+} */
 .section-header .section-title {
   font-size: 44px;
   color: #4F4F4F;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 20px;
-  margin: 0 0 20px;  
+  /* padding-bottom: 20px; */
+  /* margin: 0 0 20px;   */
 
   border-bottom: 2px solid #12AAFF;
 display: inline-block;
@@ -68,7 +142,7 @@ display: inline-block;
   content: "";
   position: absolute;
   width: 140px;
-  bottom: 0;
+  bottom: 20px;
   left: 50%;
   margin-left: -70px;
   height: 4px;
@@ -111,6 +185,10 @@ ul.nostyle i {
   -webkit-animation-name: scaleIn;
   animation-name: scaleIn;
 }
+#main-nav{
+  display:flex;
+  flex-direction: row;
+}
 .navbar-toggle{
 border-radius: 0;
 }
@@ -149,6 +227,14 @@ text-transform: uppercase;
 /*************************
 *******Header******
 **************************/
+
+
+
+#items-nav{
+  display: flex;
+  flex-direction: row;
+}
+
 #main-nav.navbar-default {
 background: #FFFFFF;
 }
@@ -239,6 +325,7 @@ background: #141414;
   }
 }
 #hero-banner{
+  margin-top: -20px;
   filter: invert(1);
   overflow: hidden;
   height:650px;
@@ -620,6 +707,7 @@ color: rgb(40, 141, 203);
 .download-now
 {
 	background: #141414;
+  position: fixed;
 	background-size: 30%;
 	padding: 140px 0 0;
 }
@@ -700,7 +788,7 @@ color: #fff !important;
 }
 /*Team*/ 
 #team {
-  padding: 140px 0;
+  padding: 40px 0;
 }
  
 /*Testimonial Area*/

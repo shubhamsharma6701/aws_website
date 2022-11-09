@@ -21,7 +21,8 @@ The LSTM (Long Short-Term Memory) Networks in Machine Learning are an amazing wa
  ### CodeCommit
  Similar to GitHub, it is used as a version control tool.
  ### AWS Amplify
- AWS Amplify is used to connect to GitHub/CodeCommit repository and then deploy the static website.
+ AWS Amplify is used to connect to GitHub/CodeCommit repository and then deploy the static website.<br>
+ <b> Visit <a href = "https://master.d9mbj7b49og44.amplifyapp.com/"> https://master.d9mbj7b49og44.amplifyapp.com/ </a> to learn more about the project.</b>
 
 ## Sagemaker NB Screenshots
   <p float="left">
